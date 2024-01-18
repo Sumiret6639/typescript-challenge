@@ -36,6 +36,6 @@ export function getBookCategory(category: BookCategory) {
 			return `Book category: ${BookCategory.Education}`;
 
 		default:
-			return `未知的種類！`;
+			return `未知的種類。`;
 	}
 }
